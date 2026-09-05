@@ -242,10 +242,14 @@ body {
     position: relative;
     width: 380px;
     height: 380px;
+
     object-fit: cover;
+    object-position: center 35%;
+
     border-radius: 50%;
     border: 6px solid #3b82f6;
     box-shadow: 0 0 45px #3b82f6;
+
     animation: floatImage 4s ease-in-out infinite;
     transition: .4s;
     z-index: 2;
@@ -632,14 +636,15 @@ body {
     align-items: center;
 }
 
-.about-img img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #3b82f6;
-    box-shadow: 0 0 35px #3b82f6;
-    transition: .5s;
+.about-img img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    object-position:center 35%;
+    border-radius:50%;
+    border:5px solid #3b82f6;
+    box-shadow:0 0 35px #3b82f6;
+    transition:.5s;
 }
 
 .about-img img:hover {
